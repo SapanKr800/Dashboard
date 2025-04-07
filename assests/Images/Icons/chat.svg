@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.4 18.98">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #333;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Group_102031" data-name="Group 102031">
+    <path id="Path_41091" data-name="Path 41091" class="cls-1" d="M17.61,7.18c1.55,3.54-.06,7.67-3.6,9.22-.89.39-1.84.59-2.81.59H3.2c-1.1,0-2-.9-2-2v-5c0-3.87,3.13-7,7-7h3s.09,0,.13,0"/>
+    <line id="Line_12051" data-name="Line 12051" class="cls-2" x1="5.7" y1="8.99" x2="9.7" y2="8.99"/>
+    <line id="Line_12061" data-name="Line 12061" class="cls-2" x1="5.7" y1="11.99" x2="13.7" y2="11.99"/>
+    <circle id="Ellipse_4661" data-name="Ellipse 4661" class="cls-2" cx="15.2" cy="3.99" r="2"/>
+  </g>
+</svg>

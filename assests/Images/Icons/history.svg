@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.4 18.98">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #333;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line id="Line_12071" data-name="Line 12071" class="cls-2" x1="4.2" y1="5.49" x2="11.2" y2="5.49"/>
+  <g id="Group_102051" data-name="Group 102051">
+    <path id="Path_41101" data-name="Path 41101" class="cls-1" d="M13.7,7.49h2c1.11,0,2,.89,2,2v6c0,1.11-.89,2-2,2s-2-.89-2-2V3.49c0-1.11-.89-2-2-2H3.7c-1.1,0-2,.89-2,2v12c0,1.11.9,2,2,2h11.53"/>
+    <line id="Line_12081" data-name="Line 12081" class="cls-2" x1="4.2" y1="9.49" x2="11.2" y2="9.49"/>
+    <line id="Line_12091" data-name="Line 12091" class="cls-2" x1="4.2" y1="13.49" x2="7.2" y2="13.49"/>
+  </g>
+</svg>

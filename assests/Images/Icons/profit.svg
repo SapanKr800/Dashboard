@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64.01 60.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        opacity: .2;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        fill: #75b3e7;
+      }
+
+      .cls-4 {
+        stroke: #75b3e7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="1.5" y="3.11" width="61" height="54"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="8.5" y="10.11" width="50" height="43"/>
+    </clipPath>
+  </defs>
+  <rect class="cls-3" x="1.5" y="3.11" width="61" height="54"/>
+  <g class="cls-7">
+    <g id="Group_10340" data-name="Group 10340">
+      <g id="Group_10339" data-name="Group 10339" class="cls-2">
+        <g id="Group_10338" data-name="Group 10338">
+          <g class="cls-5">
+            <g id="Group_10337" data-name="Group 10337">
+              <path id="Path_4576" data-name="Path 4576" class="cls-6" d="M58.29,13v26.28c0,4.66-3.78,8.44-8.45,8.45h-27.22v5.63l-9.57-5.63h-1.69c-.96,0-1.91-.16-2.82-.49v-27.67c0-5.18,4.2-9.38,9.39-9.39h39.87c.16.44.28.89.37,1.35v.04c.03.16.05.32.07.49,0,.02.01.05,0,.07l.03.28c0,.19.02.39.02.58"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Path_4577" data-name="Path 4577" class="cls-4" d="M57.8,10.18c.16.44.28.89.37,1.35v.04c.03.16.05.32.07.49,0,.02.01.05,0,.07l.03.28c0,.19.02.39.02.58v26.28c0,4.67-3.78,8.45-8.45,8.45h-27.22v5.63l-9.57-5.63h-1.69c-.96,0-1.91-.16-2.82-.49-3.38-1.19-5.64-4.38-5.63-7.96V13c0-4.67,3.78-8.45,8.45-8.45h38.48c3.58,0,6.77,2.25,7.96,5.63"/>
+      <path id="Path_4578" data-name="Path 4578" class="cls-6" d="M62.98,43.97c0,7.26-5.88,13.14-13.14,13.14s-13.14-5.88-13.14-13.14,5.88-13.14,13.14-13.14h0c7.26,0,13.14,5.88,13.14,13.14"/>
+    </g>
+  </g>
+  <g id="Group_10342" data-name="Group 10342">
+    <path id="Path_4579" data-name="Path 4579" class="cls-6" d="M19.48,22.17c0,2.19-1.78,3.97-3.97,3.97-2.19,0-3.97-1.78-3.97-3.97,0-2.19,1.78-3.97,3.97-3.97h0c2.19,0,3.97,1.78,3.97,3.97"/>
+    <path id="Path_4580" data-name="Path 4580" class="cls-6" d="M34.57,22.17c0,2.19-1.78,3.97-3.97,3.97-2.19,0-3.97-1.78-3.97-3.97,0-2.19,1.78-3.97,3.97-3.97h0c2.19,0,3.97,1.78,3.97,3.97"/>
+    <path id="Path_4581" data-name="Path 4581" class="cls-6" d="M49.65,22.17c0,2.19-1.78,3.97-3.97,3.97-2.19,0-3.97-1.78-3.97-3.97,0-2.19,1.78-3.97,3.97-3.97h0c2.19,0,3.97,1.78,3.97,3.97"/>
+    <path id="Path_4582" data-name="Path 4582" class="cls-1" d="M53.59,49.61h-9.51c-1-.04-1.79-.88-1.75-1.88v-6.57c-.03-1,.75-1.84,1.75-1.88h9.64c1,.04,1.79.88,1.75,1.88v6.57c.03,1-.75,1.84-1.75,1.88"/>
+    <path id="Path_4583" data-name="Path 4583" class="cls-1" d="M55.47,42.57l1.92-.92c.83-.33,1.84.12,1.84.83v3.84c0,.71-1,1.16-1.84.83l-1.92-.82"/>
+  </g>
+</svg>

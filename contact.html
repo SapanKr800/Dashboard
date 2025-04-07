@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Form</title>
+  <link rel="stylesheet" href="assests/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" sizes="16x16" href="assests/Images/favicon.svg" />
+  <style>
+   
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    .form-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 6px;
+      border: 1px solid #E3ECF5;
+      color: #5F5F5F;
+    }
+
+    .form-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .form-field {
+      flex: 1 1 48%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #D7DBDF;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 20px;
+      font-size: 13px;
+      width: 500px;
+    }
+
+    .error {
+      color: red;
+      font-size: 13px;
+      margin-top: 5px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 15px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .form-field {
+        flex: 1 1 100%;
+      }
+      .checkbox-group{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <form id="registerForm">
+
+    <div style="text-align: center;margin-bottom: 30px;">
+        <img src="assests/Images/logo.svg" alt="logo" />
+        </a>
+
+
+    </div>
+
+    <div class="form-group">
+      <div class="form-field">
+        <label>First Name</label>
+        <input type="text" name="firstName">
+      </div>
+      <div class="form-field">
+        <label>Last Name</label>
+        <input type="text" name="lastName">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-field">
+        <label>Email <span style="color: red">*</span></label>
+        <input type="email" name="email">
+      </div>
+      <div class="form-field">
+        <label>Password <span style="color: red">*</span></label>
+        <input type="password" name="password">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-field">
+        <label>Country Code</label>
+        <input type="text" name="countryCode">
+      </div>
+      <div class="form-field">
+        <label>Phone Number</label>
+        <input type="text" name="phoneNumber">
+      </div>
+    </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="agreeTerms" name="terms">
+      <label for="agreeTerms">I agree to the <a href="#" style="color: #007bff;">terms of logoipsum</a> and acknowledge that I can receive emails on product updates from logoipsum.</label>
+    </div>
+
+    <button type="submit">Create My Account</button>
+  </form>
+</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+
+$(document).ready(function () {
+
+
+    $('input[name="phoneNumber"]').on('keypress', function (e) {
+    if (e.which < 48 || e.which > 57) {
+      e.preventDefault();
+    }
+  });
+
+  $('#registerForm').submit(function (e) {
+    e.preventDefault();
+    $('.error').remove();
+
+    let isValid = true;
+
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const countryCodePattern = /^\+\d{1,4}$/;
+    const phonePattern = /^\d+$/;
+
+    const firstName = $('input[name="firstName"]').val().trim();
+    const lastName = $('input[name="lastName"]').val().trim();
+    const email = $('input[name="email"]').val().trim();
+    const password = $('input[name="password"]').val().trim();
+    const countryCode = $('input[name="countryCode"]').val().trim();
+    const phoneNumber = $('input[name="phoneNumber"]').val().trim();
+    const terms = $('#agreeTerms').is(':checked');
+
+    if (firstName === '') {
+      $('input[name="firstName"]').after('<div class="error">First name is required</div>');
+      isValid = false;
+    }
+
+    if (lastName === '') {
+      $('input[name="lastName"]').after('<div class="error">Last name is required</div>');
+      isValid = false;
+    }
+
+    if (email === '' || !emailPattern.test(email)) {
+      $('input[name="email"]').after('<div class="error">Enter a valid email</div>');
+      isValid = false;
+    }
+
+    if (password.length < 6) {
+      $('input[name="password"]').after('<div class="error">Password must be at least 6 characters</div>');
+      isValid = false;
+    }
+
+    if (countryCode === '' || !countryCodePattern.test(countryCode)) {
+      $('input[name="countryCode"]').after('<div class="error">Enter a valid country code (e.g. +91)</div>');
+      isValid = false;
+    }
+
+    if (phoneNumber !== '' && !phonePattern.test(phoneNumber)) {
+      $('input[name="phoneNumber"]').after('<div class="error">Phone number must contain digits only</div>');
+      isValid = false;
+    }
+
+    if (!terms) {
+      $('#agreeTerms').parent().append('<div class="error">You must agree to the terms</div>');
+      isValid = false;
+    }
+
+    if (isValid) {
+      alert('Form submitted successfully!');
+    
+    }
+  });
+});
+</script>
+
+</body>
+</html>

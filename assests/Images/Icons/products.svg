@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64.01 60.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #c6b769;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        opacity: .2;
+      }
+
+      .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #c6b769;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-5" x="8.26" y="11.16" width="50" height="35"/>
+    </clipPath>
+  </defs>
+  <rect class="cls-5" x="1.03" y="5.53" width="61.95" height="49.16"/>
+  <g id="Group_10349" data-name="Group 10349">
+    <path id="Path_4584" data-name="Path 4584" class="cls-6" d="M3.3,7.79l24.79,15.07c1.47.89,3.32.87,4.77-.06l23.81-15.27"/>
+    <rect id="Rectangle_4306" data-name="Rectangle 4306" class="cls-6" x="2.26" y="6.16" width="56" height="40" rx="4" ry="4"/>
+    <g id="Group_10348" data-name="Group 10348" class="cls-4">
+      <g id="Group_10347" data-name="Group 10347">
+        <g class="cls-7">
+          <g id="Group_10346" data-name="Group 10346">
+            <path id="Path_4585" data-name="Path 4585" class="cls-1" d="M58.28,12.24v-1.08H12.29c-2.07,0-3.75,1.68-3.75,3.75v30.98h45.99c2.07,0,3.75-1.68,3.75-3.75V12.24h0Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Path_4586" data-name="Path 4586" class="cls-2" d="M62.98,41.55c0,7.26-5.88,13.14-13.14,13.14s-13.14-5.88-13.14-13.14,5.88-13.14,13.14-13.14h0c7.26,0,13.14,5.88,13.14,13.14"/>
+    <path id="Path_4587" data-name="Path 4587" class="cls-3" d="M56.06,36.8l-4.19,11.97c-.2.55-.8.83-1.34.64-.27-.1-.49-.3-.61-.56l-1.8-4.05,2.54-3.92-4.11,2.45-3.88-1.72c-.53-.24-.76-.87-.52-1.4.12-.26.34-.46.61-.56l11.97-4.18c.54-.19,1.14.1,1.33.64.08.22.08.47,0,.69"/>
+  </g>
+</svg>
